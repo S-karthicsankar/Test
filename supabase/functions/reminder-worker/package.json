@@ -1,0 +1,14 @@
+{
+  "name": "reminder-worker",
+  "version": "0.1.0",
+  "type": "module",
+  "main": "index.ts",
+  "scripts": {
+    "build": "echo 'build step not required for supabase edge fn scaffold'",
+    "start": "node ./index.ts"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.0.0",
+    "node-fetch": "^3.0.0"
+  }
+}
